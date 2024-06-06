@@ -127,6 +127,7 @@ text-transform: capitalize;
 
 .team-cards {
 background-color: #ffffff;
+display: block;
 }
 
 .section-three-name {

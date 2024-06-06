@@ -10,22 +10,22 @@ text-decoration: none;
 
 ul {
 list-style: none;
+padding: 0px;
+margin: 0;
 }
 
-.header {
-border-bottom: 1px solid #e7e9fc;
+.header-container{
+display: flex;
 }
 
 .container {
-display: flex;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px 0 15px;
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
+display: flex;
 }
 
 .logo {
@@ -36,6 +36,11 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
 }
 
 .logo-accent {
@@ -60,6 +65,7 @@ color: #404bbf;
 
 .info {
 font-style: normal;
+display: flex;
 }
 
 .main-info {

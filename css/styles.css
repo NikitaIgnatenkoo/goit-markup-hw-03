@@ -15,9 +15,7 @@ margin: 0;
 }
 
 .header {
-border-bottom: 1px solid var(--cornflower);
-    width: 1440px;
-    height: 72px;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .container {

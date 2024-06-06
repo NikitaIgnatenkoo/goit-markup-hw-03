@@ -12,14 +12,20 @@ ul {
 list-style: none;
 }
 
-.header-spec {
-border-bottom: 1px;
-border-style: solid;
-background-color: #e7e9fc;
+.header {
+border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container{
+.container {
 display: flex;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px 0 15px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
 }
 
 .logo {

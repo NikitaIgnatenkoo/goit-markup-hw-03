@@ -5,11 +5,17 @@ background-color: #FFFFFF;
 }
 
 a {
-    text-decoration: none;
+text-decoration: none;
 }
 
 ul {
-    list-style: none;
+list-style: none;
+}
+
+.header-spec {
+border-bottom: 1px;
+border-style: solid;
+background-color: #e7e9fc;
 }
 
 .logo {

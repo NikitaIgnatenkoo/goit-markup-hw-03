@@ -157,6 +157,9 @@ background-color: #404BBF;
 .advantages-list {
 display: flex;
 gap: 24px;
+}
+
+.feature {
 width: calc((100% - 72px) / 4);
 }
 
